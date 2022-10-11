@@ -1,0 +1,17 @@
+INSERT INTO `empleados`(`id`, `usuario`, `clave`, `nombre`, `tipo`, `estado`, `esAdmin`, `fechaAlta`, `fechaBaja`) VALUES (0,'ignaciodngl','$2y$10$ehlkXlecBrUtGw4qa.9gxOfcXgRqwSHJ34wJV/9LHFWGcVYl94JN2','Ignacio D\'Angelo','Socio','Activo', 1, CURRENT_TIMESTAMP, NULL);
+INSERT INTO `empleados`(`id`, `usuario`, `clave`, `nombre`, `tipo`, `estado`, `esAdmin`, `fechaAlta`, `fechaBaja`) VALUES (0,'asperrett','$2y$10$ehlkXlecBrUtGw4qa.9gxOfcXgRqwSHJ34wJV/9LHFWGcVYl94JN2','	Aluin	Sperrett','Mozo','Activo', 0, CURRENT_TIMESTAMP, NULL);
+INSERT INTO `empleados`(`id`, `usuario`, `clave`, `nombre`, `tipo`, `estado`, `esAdmin`, `fechaAlta`, `fechaBaja`) VALUES (0,'rnevillea','$2y$10$ehlkXlecBrUtGw4qa.9gxOfcXgRqwSHJ34wJV/9LHFWGcVYl94JN2','Raymond	Neville','Mozo','Activo', 0, CURRENT_TIMESTAMP, NULL);
+INSERT INTO `empleados`(`id`, `usuario`, `clave`, `nombre`, `tipo`, `estado`, `esAdmin`, `fechaAlta`, `fechaBaja`) VALUES (0,'wjammetc','$2y$10$ehlkXlecBrUtGw4qa.9gxOfcXgRqwSHJ34wJV/9LHFWGcVYl94JN2','Wallie	Jammet','Cocinero','Activo', 0, CURRENT_TIMESTAMP, NULL);
+INSERT INTO `empleados`(`id`, `usuario`, `clave`, `nombre`, `tipo`, `estado`, `esAdmin`, `fechaAlta`, `fechaBaja`) VALUES (0,'screesf','$2y$10$ehlkXlecBrUtGw4qa.9gxOfcXgRqwSHJ34wJV/9LHFWGcVYl94JN2','Sarita	Crees','Cocinero','Activo', 0, CURRENT_TIMESTAMP, NULL);
+INSERT INTO `empleados`(`id`, `usuario`, `clave`, `nombre`, `tipo`, `estado`, `esAdmin`, `fechaAlta`, `fechaBaja`) VALUES (0,'abadwicki','$2y$10$ehlkXlecBrUtGw4qa.9gxOfcXgRqwSHJ34wJV/9LHFWGcVYl94JN2','Alisha	Badwick','Cervezero','Activo', 0, CURRENT_TIMESTAMP, NULL);
+INSERT INTO `empleados`(`id`, `usuario`, `clave`, `nombre`, `tipo`, `estado`, `esAdmin`, `fechaAlta`, `fechaBaja`) VALUES (0,'mcowmeadow11','$2y$10$ehlkXlecBrUtGw4qa.9gxOfcXgRqwSHJ34wJV/9LHFWGcVYl94JN2','	Mathew	Cowmeadow','Bartender','Activo', 0, CURRENT_TIMESTAMP, NULL);
+
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','A0003','Esperando Cliente');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','AB004','Esperando Cliente');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','AC005','Cerrada');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','C0001','Esperando Cliente');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','CB002','Esperando Cliente');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','CC003','Cerrada');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','CD004','Cerrada');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','TB001','Cerrada');
+INSERT INTO `mesas`(`id`, `codigoMesa`, `estado`) VALUES ('0','TC002','Cerrada');
